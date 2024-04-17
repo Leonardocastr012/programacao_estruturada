@@ -27,12 +27,12 @@ int main() {
             break;
         case '*':{
             float mult = a * b;
-            printf("%.2f - %.2f = %.2f ", a, b, mult);
+            printf("%.2f * %.2f = %.2f ", a, b, mult);
         }
             break;
         case '/':{
             float div = a / b;
-            printf("%.2f - %.2f = %.2f ", a, b, div);
+            printf("%.2f / %.2f = %.2f ", a, b, div);
         }
             break;
         default: printf("So temos essas 4 operacoes");
